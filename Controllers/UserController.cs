@@ -5,9 +5,7 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace FirstApi.Controllers
 {
-    [Route("api/[controller]")]
-    [ApiController]
-    public class UserController : ControllerBase
+    public class UserController : ApiBaseController
     {
         /*
          * Use body only in POST and PUT
